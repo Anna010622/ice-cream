@@ -1,0 +1,30 @@
+// utils styles
+@import './utils/variables';
+@import './utils/visually-hidden';
+@import './utils/mixins';
+
+// base
+@import './base/base';
+@import './base/animations';
+@import './base/reset';
+
+// components
+@import './components/container';
+@import './components/button';
+@import './components/header';
+@import './components/hero';
+@import './components/products';
+@import './components/about';
+@import './components/advantages';
+@import './components/gallery';
+@import './components/customer-reviews';
+@import './components/contacts';
+@import './components/footer';
+@import './components/mobile-menu';
+@import './components/modals';
+@import './components/modal-buy-now';
+@import './components/modal-about-product';
+@import './components/modal-read-more';
+@import './components/modal-our-locations';
+@import './components/modal-franchise';
+@import './components/cursor';

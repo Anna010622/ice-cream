@@ -1,0 +1,45 @@
+.modal-ol {
+	padding-left: 26px;
+	padding-right: 26px;
+
+	@media screen and (min-width: 768px) {
+		padding-left: 58px;
+		padding-right: 58px;
+	}
+}
+.modal-ol__title {
+	margin-bottom: 20px;
+	@media screen and (min-width: 768px) {
+		margin-bottom: 32px;
+	}
+}
+
+.modal-ol__map-wrapper {
+	margin-bottom: 20px;
+	border-radius: 10px;
+	overflow: hidden;
+	width: 100%;
+	height: 199px;
+
+	@media screen and (min-width: 768px) {
+		margin-bottom: 32px;
+
+		height: 205px;
+	}
+}
+.modal-ol__map {
+	width: 100%;
+	height: 100%;
+}
+.modal-ol__btn {
+	margin-left: auto;
+	margin-right: auto;
+	width: 134px;
+
+	font-size: 12px;
+
+	@media screen and (min-width: 768px) {
+		width: 145px;
+		font-size: 14px;
+	}
+}
